@@ -54,7 +54,7 @@ body{
 }
 .price{
     font-family: 'Fraunces',serif;
-    font-size: 14px;
+    font-size: 25px;
     font-weight:700;
     color:  hsl(158, 36%, 37%);
     display: flex;
@@ -63,7 +63,7 @@ body{
 }
 .price span{
     margin-left: 12px;
-    font-size: 10px;
+    font-size: 13px;
     font-family:  'Montserrat',serif;
     color: hsl(228, 12%, 48%);
 } 
@@ -76,6 +76,7 @@ body{
    color: #fff;
    font-family:  'Montserrat',serif;
    font-weight: 700;
+   font-size: 15px;
    
 }
 button img{
