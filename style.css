@@ -1,4 +1,5 @@
  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap'); 
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&family=Montserrat:wght@500&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&display=swap'); 
 *{
     margin: 0;
@@ -48,35 +49,35 @@ body{
 .about{
     font-family: 'Montserrat',serif;
     font-weight: 700;
-    font-size: 13px;
+    font-size: 12px;
     color:  hsl(228, 12%, 48%);
     line-height:1.3rem;
 }
 .price{
     font-family: 'Fraunces',serif;
-    font-size: 25px;
+    font-size: 35px;
     font-weight:700;
     color:  hsl(158, 36%, 37%);
     display: flex;
     align-items: center;
-    justify-content:stretch;
+    justify-content:space-between;
 }
 .price span{
     margin-left: 12px;
-    font-size: 13px;
+    font-size: 15px;
     font-family:  'Montserrat',serif;
     color: hsl(228, 12%, 48%);
 } 
 .btn button{
-   width: 200px;
-   height: 40px;
+   width: 201px;
+   height: 60px;
    background: hsl(158, 36%, 37%) ;
    border: none;
    border-radius: 10px;
    color: #fff;
    font-family:  'Montserrat',serif;
    font-weight: 700;
-   font-size: 15px;
+   font-size: 20px;
    
 }
 button img{
