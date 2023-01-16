@@ -10,9 +10,9 @@ body{
     background:  hsl(30, 38%, 92%);
     min-height: 100vh;
     display: flex;
-    flex-direction: column;
+     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
 
 }
 .image img{
@@ -23,17 +23,18 @@ body{
 .cardComponent{
     width:550px;
     background:  hsl(0, 0%, 100%);
-    display: grid;
-    grid-template-columns: repeat(2,1fr); 
+     display: grid;
+    grid-template-columns: 1fr 1fr; 
      border-radius: 10px; 
 }
  .description{
     display: flex;
     flex-direction: column;
-     justify-content:space-evenly;
+     /* justify-content:space-evenly; */
     justify-content: space-around;
     padding: 2.2rem;
 }
+
 .product{
     font-family: 'Montserrat', serif;
     font-size: 12px;
@@ -41,6 +42,7 @@ body{
     letter-spacing: 2px;
     opacity: 50%;
 }
+
 .prodname{
     font-family: 'Fraunces',serif;
     font-weight:700;
@@ -82,4 +84,4 @@ body{
 }
 button img{
     margin-right: 3px;
-}
+} 
